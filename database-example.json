@@ -1,0 +1,20 @@
+{
+    "example-1": {
+        "name": "odin",
+        "host": "127.0.0.1",
+        "port": 5434,
+        "username": "1",
+        "password": "1",
+        "database": "1",
+        "db_system": "postgresql"
+    },
+    "example-2": {
+        "name": "saas",
+        "host": "127.0.0.1",
+        "port": 5434,
+        "username": "1",
+        "password": "1",
+        "database": "1",
+        "db_system": "postgresql"
+    }
+}

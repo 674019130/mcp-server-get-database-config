@@ -38,11 +38,18 @@ def get_database_config_by_name(database_name: str) -> DatabaseConfig:
         database config
     """
     database_config = get_all_database_config()
-    return database_config[database_name]
+    return next(
+        (
+            database_config
+            for database_config in database_config
+            if database_config.name == database_name
+        ),
+        None,
+    )
 
 
 def main():
-    mcp.run(transport='stdio')
+    mcp.run(transport="stdio")
 
 
 if __name__ == "__main__":

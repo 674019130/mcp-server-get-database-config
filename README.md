@@ -4,6 +4,7 @@ Create a new file named `database.json` based on the structure shown in the give
 
 **With the following prompt, the MCP Client can automatically retrieve the database configuration**, eliminating the need to manually provide it when generating simple analysis scripts, thereby improving Talk efficiency.
 
+## prompt
 ```
 帮我写个python脚本，
 在 db_alpha 库执行
